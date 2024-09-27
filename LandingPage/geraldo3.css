@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    font-family: "EB Garamond", serif;
+    margin: 0%;
+}
+
+.img {
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    color: aliceblue;
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(175, 0, 0);
+}
+
+.botao-cadastro {
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 85%;
+}
+
+.botao-home {
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 80%;
+}
+
+.botao-forum {
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 75%;
+}
+
+.botao-trailer {
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 70%;
+}
+
+.botao-compra {
+    position: absolute;
+    z-index: 1;
+    top: 1%;
+    left: 65%;
+}
+
+.historia {
+    position: absolute;
+    z-index: 1;
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    width: 900px;
+    margin-left: 10%;
+    margin-top: 10%;
+    text-shadow: rgb(0, 0, 0) 0 -3px
+}
+
+.cabecario {
+    position: relative;
+    text-align: center;
+}
+
+.cabecario .b1 {
+    position: absolute;
+    z-index: 1;
+    top: 75%;
+    left: 1%;
+}
+
+.logojogo {
+    position: absolute;
+    width: 400px;
+    margin-left: 68%;
+    margin-top: 29%;
+}
+
+.logo {
+    position: absolute;
+    width: 160px;
+    margin-left: 85%;
+    margin-top: 30%;
+}
+
+.text-netflix {
+    position: absolute;
+    z-index: 1;
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    width: 800px;
+    margin-left: 65%;
+    margin-top: 10%;
+    text-shadow: rgb(0, 0, 0) 0 -3px
+}
+
+.netflix {
+    position: relative;
+    text-align: center;
+}
+
+.netflix .b2 {
+    position: absolute;
+    z-index: 1;
+    top: 12%;
+    left: 1%;
+}
+
+.netflix .b3 {
+    position:absolute;
+    z-index:1;
+    top: 83%;
+    left: 1%;
+}
+
+.escolhas {
+    position: relative;
+    text-align: center;
+}
+
+.text-escolhas {
+    position: absolute;
+    z-index: 1;
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    width: 800px;
+    margin-left: 7%;
+    margin-top: 7%;
+    text-shadow: rgb(0, 0, 0) 0 -5px
+}
+
+.text-escolhas2 {
+    position: absolute;
+    z-index: 1;
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    width: 800px;
+    margin-left: 60%;
+    margin-top: 12%;
+    text-shadow: rgb(0, 0, 0) 0 -5px
+}
+
+.escolhas .b4 {
+    position: absolute;
+    z-index: 1;
+    top: 11%;
+    left: 1%;
+}
+
+.escolhas .b5 {
+    position:absolute;
+    z-index:1;
+    top: 79%;
+    left: 1%;
+}
+
+.mundo {    
+    position: relative;
+    text-align: center;
+}
+
+.text-mundo {
+    position: absolute;
+    z-index: 1;
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    width: 1300px;
+    margin-left: 10%;
+    margin-top: 6%;
+    text-shadow: rgb(0, 0, 0) 0 -5px;
+}
+
+.mundo .b6 {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 1%;
+}
+
+.mundo .b7 {
+    position:absolute;
+    z-index:1;
+    top: 73%;
+    left: 1%;
+}
+
+.logogaleria {
+    position: absolute;
+    width: 160px;
+    margin-left: 34%;
+    margin-top: 25%;
+}
+
+.combate {    
+    position: relative;
+    text-align: center;
+}
+
+.text-combate {
+    position: absolute;
+    z-index: 1;
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    width: 800px;
+    margin-left: 5%;
+    margin-top: 5%;
+    text-shadow: rgb(0, 0, 0) 0 -3px
+}
+
+.text-combate2 {
+    position: absolute;
+    z-index: 1;
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    width: 800px;
+    margin-left: 5%;
+    margin-top: 18%;
+    text-shadow: rgb(0, 0, 0) 0 -3px
+}
+
+
+.combate .b8 {
+    position: absolute;
+    z-index: 1;
+    top: 9%;
+    left: 1%;
+}
+
+.combate .b9 {
+    position:absolute;
+    z-index:1;
+    top: 67%;
+    left: 1%;
+}
+
+.cadastro {    
+    position: relative;
+    text-align: center;
+}

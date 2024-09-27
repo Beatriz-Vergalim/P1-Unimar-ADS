@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./cadastro.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 id="hello-user">ASSINE JÁ O BOLETIM INFORMATIVO!</h1>
+            <h2>FIQUE POR DENTRO DAS ATUALIZAÇÕES E EVENTOS NO MUNDO DE THE WITCHER!</h2>
+        </div>
+    </header>
+    <div id="form-user">
+        <form id="cadastro-user">
+            <input type="text" id="txtNome" name="txtNome" placeholder="Nome..."><br>
+            <span id="error-nome" class="input-error">Nome não preenchido ou incorreto. Tente novamente.</span><br>
+            <input type="text" id="txtEmail" name="txtEmail" placeholder="Email..."><br>
+            <span id="error-email" class="input-error">Email não preenchido ou incorreto. Tente novamente.</span><br>
+            <button type="button" onclick="cadastraUser()">Cadastrar</button>
+        </form>
+        <a href="file:///D:/LandingPage/home.html" class="botao-home">
+            <button>VOLTAR PARA PÁGINA INICIAL</button>
+        </a>
+    </div>
+</body>
+<script>
+function cadastraUser() {
+    document.getElementById("hello-user").innerHTML = "Cadastro iniciado";
+
+    var nome = document.getElementById("txtNome").value;
+    var email = document.getElementById("txtEmail").value;
+
+    if (nome.length == 0) {
+        document.getElementById("error-nome").style.display = "block";
+    } else {
+        document.getElementById("error-nome").style.display = "none";
+    }
+    
+    if (email.length == 0) {
+        document.getElementById("error-email").style.display = "block";
+    } else {
+        document.getElementById("error-email").style.display = "none";
+    }
+    
+    if (nome.length != 0 && email.length != 0) {
+        document.getElementById("hello-user").innerHTML = `Você entrou como ${nome}`;
+        document.getElementById("cadastro-user").style.display = "none";    
+    }
+}
+</script>
+</body>
+</html>

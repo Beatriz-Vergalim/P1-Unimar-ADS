@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    background-image: url(img/fundo1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "EB Garamond", serif;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h2 {
+    color: aliceblue;
+}
+
+.heroi {
+    float: right;
+    height: auto;
+    width: 500px;
+    
+}
+
+.ingame {
+    float: right;
+    height: 300px;
+    margin-top: 3%;
+}
+
+.ingame2 {
+    float: right;
+    height: 300px;
+    margin-top: 3%;
+}
+
+
+p {
+    color: aliceblue;
+    width: 90%;
+    font-size: x-large;
+}
+
+.container2 {
+    display: flex;
+    margin-top: 1%; 
+    width: 900px;
+}
+
+.tabela-minino-recomendado{
+    color: aliceblue; 
+    margin-left: 15%;
+}
+
+table, th, td {
+    border:1px solid  #314249;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 1%;
+    background-color:  #638a9b62;
+}
+
+.botoes {
+    width: 20%;
+    float: right;
+    margin-right: 3%;
+}
+
+.compra-volta-trailer {
+    font-family: "EB Garamond", serif;
+    background-color: #314249;
+    color: aliceblue;
+    cursor: pointer;
+    width: 300px;
+    height: 60px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.compra-volta-trailer:hover {
+    background-color: #025677;
+}

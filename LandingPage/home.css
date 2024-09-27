@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    font-family: "EB Garamond", serif;
+    color: aliceblue;
+    background-color: #030d12;
+    margin:0% ;
+}
+
+.imgcabeca {
+    height: auto;
+    width: 100%;
+}
+
+.botao-compra-trailer {
+    background-color: rgb(116, 0, 29);
+    color: aliceblue;
+    border-color: rgb(107, 0, 27);
+    width: 200px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.botao-compra-trailer:hover {
+    background-color: rgb(172, 0, 43);
+    border-color: rgb(255, 0, 0);
+}
+
+.jogos {
+    display: flex;
+    gap: 80px;
+    margin-left: 20%;
+}
+
+.jogos-img {
+    position: relative;
+    width: 400px;
+    height: 0%px;
+}
+
+.jogos-img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.jogos-img img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+h2 {
+    text-align: center;
+    margin: 2%;
+}
+
+.outros-jogos {
+    display:inline-block;
+    margin-left: 20%;
+}
+
+.img1, .img2, .img3 {
+    width: 600px;
+}
+
+.text1 {
+    font-size: x-large;
+    height: 300px;
+    margin: 4%;
+    padding: 1%;
+}
+
+.img1 {
+    display: inline-block;
+    float: left;
+    padding: 1%;
+}
+
+.text2 {
+    font-size: x-large;
+    height: 300px;
+    margin: 4%;
+    padding: 1%;
+}
+
+.img2 {
+    display: inline-block;
+    float: right;
+    padding: 1%;
+}
+
+.text3 {
+    font-size: x-large;
+    height: 300px;
+    margin: 4%;
+    padding: 1%;
+}
+
+.img3 {
+    display: inline-block;
+    float: left;
+    padding: 1%;
+}
+
+

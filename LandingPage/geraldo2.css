@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    margin: 0px;
+    font-family: "EB Garamond", serif;
+    background-color: rgb(19, 11, 0);
+}
+
+.cabeca {
+    width: 100%;
+}
+
+h1 {
+    color: aliceblue;
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 90px rgb(0, 131, 136);
+    background-color: rgba(0, 131, 131, 0.479);
+    backdrop-filter: blur(500px);
+    padding: 20px;
+}
+
+.historia {
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+}
+
+.forum {
+    font-family: "EB Garamond", serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    top: 5%;
+    left: 10%;
+    margin-left: 65%;
+    margin-top: 1%;
+    background-color: rgb(0, 131, 136);
+}
+
+.forum:hover {
+    background-color: rgb(0, 97, 100);
+}
+
+.home {
+    font-family: "EB Garamond", serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    top: 5%;
+    left: 10%;
+    margin-left: 75%;
+    margin-top: 1%;
+    background-color: rgb(0, 131, 136);
+}
+
+.home:hover {
+    background-color: rgb(0, 97, 100);
+}
+
+.trailer {
+    font-family: "EB Garamond", serif;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    top: 5%;
+    left: 10%;
+    margin-left: 70%;
+    margin-top: 1%;
+    background-color: rgb(0, 131, 136);
+}
+
+.trailer:hover {
+    background-color: rgb(0, 97, 100);
+}
+
+.compra {
+    font-family: "EB Garamond", serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    width: 110px;
+    height: 45px;
+    top: 5%;
+    left: 10%;
+    margin-left: 80%;
+    margin-top: 1%;
+    background-color: rgb(255, 166, 0);
+}
+
+.compra:hover {
+    background-color: rgb(184, 0, 0);
+}
+
+.mapa {
+    width: 1000px;
+    position: absolute;
+}
+
+.texto-mapa {
+    color: rgb(255, 255, 255);
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    font-size: 29px;
+    width: 900px;
+    padding: 60px;
+    text-shadow: rgb(0, 0, 0) 0 -3px
+}
+
+.conteudo-ingame {
+    margin-left: 30%;
+}
+
+.text-ingame {
+    color: aliceblue;
+    margin-left: 18%;
+    margin-top: 32%;
+}
+
+.img-ingame, .img-ingame2 {
+    width: 1000px;
+}
+
+.text-ingame {
+    color: aliceblue;
+    margin-left: 18%;
+    margin-top: 32%;
+
+}.text-ingame2, .text-combate {
+    font-size: large;
+    color: aliceblue;
+    width: 1000px;
+}
+
+.tabela-minino-recomendado {
+    color: aliceblue;
+    font-family: "EB Garamond", serif;
+    text-align: center;
+    margin-left: 39%;
+}
