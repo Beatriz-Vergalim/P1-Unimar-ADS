@@ -1,0 +1,10 @@
+body {
+    background-image: url(./image/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card, .card-header{
+    background-color: #4a6a77;
+}
+
